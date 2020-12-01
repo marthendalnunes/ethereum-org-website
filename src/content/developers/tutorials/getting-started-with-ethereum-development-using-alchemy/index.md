@@ -3,7 +3,7 @@ title: Getting Started with Ethereum Development Using Alchemy
 description: "This is a beginners guide to getting started with Ethereum development using Alchemy, We’ll take you from signing up with Alchemy to making a command line request, to writing your first web3 script! No blockchain development experience necessary!"
 author: "Elan Halpern"
 tags:
-  ["Getting started", "web3.js", "Ethers.js", "Nodes", "Querying", "Alchemy"]
+  ["Getting started", "javascript", "Ethers.js", "Nodes", "Querying", "Alchemy"]
 skill: beginner
 lang: en
 sidebar: true
@@ -70,7 +70,7 @@ curl [https://eth-mainnet.alchemyapi.io/v2/demo](https://eth-mainnet.alchemyapi.
 
 ## 4\. Set up your Web3 Client {#set-up-your-web3-client}
 
-**If you have an existing client,** change your current node provider URL to an Alchemy URL with your API key: “https://eth-mainnet.alchemyapi.io/v2/your-api-key"
+**If you have an existing client,** change your current node provider URL to an Alchemy URL with your API key: `“https://eth-mainnet.alchemyapi.io/v2/your-api-key"`
 
 **_NOTE:_** The scripts below need to be run in a **node context** or **saved in a file**, not run from the command line. If you don’t already have Node or npm installed, check out this quick [set-up guide for macs](https://app.gitbook.com/@alchemyapi/s/alchemy/guides/alchemy-for-macs).
 
